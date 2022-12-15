@@ -32,7 +32,17 @@ t.left(90)
 t.forward(45)
 t.pendown()
 t.circle(-65,540)
-t.right(180)
+t.left(90)
+t.penup()
+t.forward(45)
+t.pendown()
+t.left(90)
+t.backward(30)
+t.circle(-40)
+t.forward(60)
+t.circle(-40, 180)
+t.penup()
+
 
 
 
