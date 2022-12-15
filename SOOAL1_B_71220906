@@ -1,0 +1,46 @@
+import turtle
+s = turtle.Screen()
+
+t = turtle.Turtle()
+
+
+#drawing R906
+t.left(90)
+t.forward(120)
+t.right(90)
+t.forward(70)
+t.right(90)
+t.forward(40)
+t.right(90)
+t.forward(70)
+t.right(225)
+t.forward(110)
+t.penup()
+t.left(45)
+t.forward(50)
+t.left(90)
+t.forward(100)
+t.pendown()
+t.circle(-30,540)
+t.forward(80)
+t.circle(-30,180)
+t.right(90)
+t.penup()
+t.forward(90)
+t.right(360)
+t.left(90)
+t.forward(45)
+t.pendown()
+t.circle(-65,540)
+t.right(180)
+
+
+
+
+
+
+
+
+
+
+s.exitonclick()
